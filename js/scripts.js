@@ -33,7 +33,7 @@ $(document).ready(function(){
     $('#result').text("your parent exists now, congratulations. Click one of the buttons below to begin parenting.")
   });
   $('#cry').click(function(){
-    $('#result').text(newChild.cries());//set the text to the return of Child.cries(). The child can now also has buyIceCream as one of it's methods because it is extending the Parent class, so it inherits the parents methods.
+    $('#result').text(newChild.cries());//set the text to the return of Child.cries(). The child now also has buyIceCream as one of it's methods because it is extending the Parent class, so it inherits the parents methods.
     console.log(newChild.buyIceCream());//look in the console to see this output
   });
   $('#buy').click(function(){
