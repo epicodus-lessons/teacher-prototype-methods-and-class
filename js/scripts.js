@@ -6,9 +6,7 @@
 
 //Business logic
 function Parent(name){//Constructor function
-  //console.log(name) to see if the variable is coming in as what you expect
   this.name = name;
-  //console.log(this.name) you can console.log() after to see if it got set right
   this.child = new Child(name);
 }
 Parent.prototype.buyIceCream = function(){//Prototype method
