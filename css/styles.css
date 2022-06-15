@@ -8,5 +8,9 @@
   background-color: antiquewhite;
   border-radius: 15px;
 }
-
+.center{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
 
