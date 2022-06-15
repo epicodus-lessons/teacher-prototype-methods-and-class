@@ -13,7 +13,7 @@ Parent.prototype.buyIceCream = function(){//Prototype method
   return `${this.name} buys ice cream`;//this uses template literals, read about them here - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 }
 function Child(name){//Constructor function
-  this.name = "jr " + name;
+  this.name = name + " jr";
 }
 Child.prototype.cries = function(){//Prototype method
   return `${this.name} cries`
