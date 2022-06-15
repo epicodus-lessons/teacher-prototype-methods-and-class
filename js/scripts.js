@@ -1,14 +1,8 @@
-
-//******** */!!!
-//Please note that Parent and Child are common names for the relationship between classes in many programming languages, and this example is NOT demonstrating that relationship. Read about parent and child class relationships here https://www.w3schools.com/jsref/jsref_class_extends.asp#:~:text=Definition%20and%20Usage,you%20create%20a%20new%20class.
-
-///******* */!!!
-
 //Business logic
 class Parent {
   constructor(name) {
     this.name = name;
-    // this.child = new Child(name);// we can't create the child as a property of the Parent class in the same way, because it extends that parent class now and will gives us a recursive function call error https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Too_much_recursion
+    // this.child = new Child(name);// we can't create the child as a property of the Parent class in the same way, because Child extends that parent class now and will gives us a recursive function call error https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Too_much_recursion
   }
   buyIceCream() {
     return `${this.name} buys some ice cream`;
@@ -25,8 +19,8 @@ class Child extends Parent {
   }
 }
 $(document).ready(function(){
-  //setting my new parent variable outside the form submit scope so I can use it in other events (like the click listeners)
-  let newParent; // don't need to set it equals to anything, it'll be undefined by default and we can change it later
+  //setting my new parent variable outside the form submit scope so I can use it in other events (like the click listeners below)
+  let newParent; // don't need to set it equal to anything, it'll be undefined by default and we can change it later
   let newChild;
   $('#result').text("the parent does not exist yet, please submit the form to create the parent")
   //event listeners below
