@@ -29,8 +29,6 @@ What is a prototype in Javascript? - [MDN Object Prototypes](https://developer.m
 
 What is a class in javascript? - [W3Schools Javascript classes](https://www.w3schools.com/jsref/jsref_classes.asp)
 
-Template literals - [MDN template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
-
 ## License
 
 <summary>
