@@ -12,18 +12,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
   </head>
   <body>
-    <h1>Parenting practice</h1>
-    <p>Here is how to be a <em>parent</em>!</p>
-    <form id="name-form">
-      <label for="parent-name">Enter parent's name</label>
-      <input type="text" name="parent-name" id="p-name">
-      <button type="submit" class="btn-success">Submit</button>
-    </form>
-    <div id="result">
-    </div>
-    <div id="parenting-btns">
-      <button class="btn-success" id="cry">Click to Cry</button>
-      <button class="btn-success" id="buy">Buy Ice Cream</button>
+    <div class="container">
+      <div class="center">
+        <h1>Parenting practice</h1>
+        <p>This is an example of prototype <em>methods</em>!</p>
+      </div>
+      <p>Enter a name in the form to create a Parent object. This will also create a Child object as a property of that Parent object. The names below the form correspond to those objects</p>
+      <p>After submitting the form, You'll see the name of each object and two buttons that will print the return of their resepective methods when clicked</p>
+      <form class="center" id="name-form">
+        <label class="center" for="parent-name">Enter parent's name</label>
+        <br>
+        <input type="text" name="parent-name" id="p-name">
+        <button type="submit" class="btn-primary showing">Submit</button>
+      </form>
+      <div class="center">
+        <button id='reset-everything' type="reset" class="btn-warning hidden">Reset</button>
+      </div>
+      <div class="center">
+        <p class="label">Child Name: </p>
+        <p id="child-name">Child name does not exist, because Child object does not exist yet</p>
+        <span class="font-weight-light hidden">The return of newParent.child.cries() will output above the button<p class="font-weight-normal" id="child-output"></p></span>
+        <button class="btn-success hidden" id="cry">Click to Call newParent.child.cries()</button>
+        <p class="label">parent Name: </p>
+        <p id="parent-name">parent name does not exist, because parent object does not exist yet</p>
+        <span class="font-weight-light hidden">The return of newparent.buyIceCream() will output above the button<p class="font-weight-normal" id="parent-output"></p></span>
+        <button class="btn-success hidden" id="buy">Click to Call newparent.buyIceCream()</button>
+      </div>
     </div>
   </body>
 </html>
