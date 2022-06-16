@@ -1,5 +1,15 @@
 # Prototypes and Classes in Javascript
 
+TODO:
+I see how this is working in the scripts, but I would add more in the DOM to illustrate that when you are filling out the form it is actually creating two different objects (person and baby) with the same name and that each function is specifically for the corresponding object. This might be more helpful for students to understand what exactly is happening. Just my two cents.
+
+Hey Patrick, I just reviewed the scripts.js file and commentary. Looks good to me! If the goal is highlighting that an object and another object nested inside of it doesn't necessarily share functionality, I think you've done that. Meaning, the baby object is nested in the parent object, but the parent object can't cry, only the baby object can cry. I got this main takeaway from the very last commentary in the scripts.js. Am I on the right track?
+
+I have these suggestions for your consideration:
+- consider not using template literals if students haven't been exposed to them yet in the curriculum. I don't think it's bad to introduce them now, but sometimes introducing something new can distract from the point of the lesson in this example. This is entirely up to your discretion.
+- consider setting a line length for comments and manually wrapping them onto multiple lines. Doing this makes commentary and code easier for me to read, because I don't have to scroll from side to side when viewing the file on GitHub.com. This is just a personal preference.
+- I see you add links that students can visit to learn the difference between classes and prototypes. It could be helpful to label the link to classes as optional further exploration and to include a clear statement that JS uses object types and prototypal inheritance, and that students will learn about class syntax later on. Suggesting this, because it could help some students parse which information they need to focus their brains on, and which is extra
+
 ## Description
 
 This is for demonstration purposes. 

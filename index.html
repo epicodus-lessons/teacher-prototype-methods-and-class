@@ -17,17 +17,26 @@
         <h1>Personing practice</h1>
         <p>This is an example of prototype <em>methods</em>!</p>
       </div>
+      <p>Enter a name in the form to create a Person object. This will also create a Baby object as a property of that Person object. The names below the form correspond to those objects</p>
+      <p>After submitting the form, You'll see the name of each object and two buttons that will print the return of their resepective methods when clicked</p>
       <form class="center" id="name-form">
         <label class="center" for="person-name">Enter person's name</label>
         <br>
         <input type="text" name="person-name" id="p-name">
-        <button type="submit" class="btn-success">Submit</button>
+        <button type="submit" class="btn-primary showing">Submit</button>
       </form>
-      <div class="center" id="result">
+      <div class="center">
+        <button id='reset-everything' type="reset" class="btn-warning hidden">Reset</button>
       </div>
       <div class="center">
-        <button class="btn-success" id="cry">Click to Make Jr Cry</button>
-        <button class="btn-success" id="buy">Click to Buy Ice Cream</button>
+        <p class="label">Baby Name: </p>
+        <p id="baby-name">baby name does not exist, because baby object does not exist yet</p>
+        <span class="font-weight-light hidden">The return of newPerosn.baby.cries() will output above the button<p class="font-weight-normal" id="baby-output"></p></span>
+        <button class="btn-success hidden" id="cry">Click to Call newPerosn.baby.cries()</button>
+        <p class="label">Person Name: </p>
+        <p id="person-name">person name does not exist, because person object does not exist yet</p>
+        <span class="font-weight-light hidden">The return of newPerson.buyIceCream() will output above the button<p class="font-weight-normal" id="person-output"></p></span>
+        <button class="btn-success hidden" id="buy">Click to Call newPerson.buyIceCream()</button>
       </div>
     </div>
   </body>
