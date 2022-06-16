@@ -1,5 +1,9 @@
 # Prototypes and Classes in Javascript
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 697fb2a4a53172e7e366d518fa75194656c1e3c6
 ## Description
 
 This is for demonstration purposes. 
