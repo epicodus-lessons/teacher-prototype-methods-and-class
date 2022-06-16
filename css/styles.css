@@ -32,3 +32,9 @@ p{
 font-weight-normal{
   font-weight: normal;
 }
+#child-output{
+  color: red;
+}
+#parent-output{
+  color: red;
+}
