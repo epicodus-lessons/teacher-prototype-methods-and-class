@@ -8,7 +8,33 @@
   background-color: antiquewhite;
   border-radius: 15px;
 }
-#parenting-btns{
+.hidden{
+  display: none;
+}
+p{
   text-align: center;
 }
-
+.center{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+#inside-details{
+  background-color: grey;
+  color: white;
+}
+.label{
+  font-weight: bold;
+}
+.font-weight-light{
+  font-weight: lighter;
+}
+font-weight-normal{
+  font-weight: normal;
+}
+#child-output{
+  color: red;
+}
+#parent-output{
+  color: red;
+}
