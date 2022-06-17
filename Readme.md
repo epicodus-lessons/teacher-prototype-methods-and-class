@@ -8,7 +8,7 @@ The main branch of this repo uses two prototype constructors, each with it's own
 
 The parent-child branch has examples of similar functionality using ES6 classes. 
 
-![a gif of the UI form and buttons](./img/gifcap.gif)
+![a gif of the UI form and buttons](./img/gifcap1.gif)
 
 ### Setup
 
